@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> R.V.E  </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+
+	<body>
+
+		<div class="row">
+			<div class="col-md-6 col-lg-2">
+				<img src="logo.png">
+			</div>
+    		<div class="col-sm-3 col-md-6 col-lg-8 text-center "><h1>Educando con Realidad Virtual</h1></div>
+    		<div class="col-sm-6 col-md-6 col-lg-2">
+				<img src="figuras.png">
+			</div>
+		</div>
+
+		<div class="topnav" id="myTopnav">
+  			<a href="index.html" class="active">Inicio</a>
+				<a href="aprender_jugando.html">Aprender jugando</a>
+				<a href="figuras.html">Figuras</a>
+				<a href="consultar.html">Consultar</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+				<div> <a href="registrar.php" id="loginBtn"> Register</a></div>
+				<div> <a href="#login" id="loginBtn"> Login</a></div>
+  			</a>
+				<div class="col-sm-3"></div>
+				<div>
+					<input type="text" id="buscar" />
+					<input type="image" src="bsi.png" id="botonx" />
+
+				</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-10 text-center">
+				<p class="text-primary" style="font-size: 40px"> Elige una opción </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3 ">
+				<form action="registrarprof.php" method="POST">
+					<div><input type="image" src="img/iconprofesor.png" id="botonx" /></div>
+				</form>
+			</div>
+			<div class="col-md-3 ">
+				<form action="eliminarprof.php" method="POST">
+					<div><input type="image" src="img/iconprofesoreliver.png" id="botonx" /></div>
+				</form>
+			</div>
+			<div class="col-md-3 ">
+				<form action="modificarprof.php" method="POST">
+					<div><input type="image" src="img/iconactualizardatosprof.png" id="botonx" /></div>
+				</form>
+			</div>
+			</div>
+		<!--<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3 ">
+				<form action="registrarest.php" method="POST">
+					<div><input type="image" src="img/iconregistroest.png" id="botonx"/></div>
+				</form>
+			</div>
+			<div class="col-md-3 ">
+				<form action="index.html" method="POST">
+					<div><input type="image" src="img/iconestudianteeliver.png" id="botonx" /></div>
+				</form>
+			</div>
+			<div class="col-md-3 ">
+				<form action="index.html" method="POST">
+					<div><input type="image" src="img/iconactualizardatosest.png" id="botonx" /></div>
+				</form>
+			</div>
+			</div>-->
+
+</body>
+</htm>
