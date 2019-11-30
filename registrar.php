@@ -39,7 +39,7 @@
                 <div class="card-heading" style="background-image: url(img/niñarve.jpg);"></div>
                 <div class="card-body">
                     <h2 class="title">Ingresar información</h2>
-										<form class="contacto"	 action="Registro.php" method="POST" onsubmit='return validar()'>
+										<form class="contacto"	 action="registro.php" method="POST" onsubmit='return validar()'>
 											<div class="input-group">
 											<div><input  class="input--style-3" id="cedula"class="codigo" type="text" name="txtcodigo" placeholder="Ingresar Cedula" maxlength="10" >
 											</div>
