@@ -8,7 +8,7 @@
 $server="localhost";
 $usuario="root";
 $contraseña="";
-$bd="proyecto1";
+$bd="proyecto";
 
 $conexion=mysqli_connect($server,$usuario,$contraseña,$bd)
 or die ("Error de la conexion");
