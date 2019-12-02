@@ -61,7 +61,7 @@ echo '</table>';
 ?>
 </form>
 
-<form class="contacto" action="index.html" method="POST">
+<form class="contacto" action="index2.html" method="POST">
 	<div><input type="submit" value="Volver Principal"></div>
 </form>
 
