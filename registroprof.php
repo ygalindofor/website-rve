@@ -5,10 +5,10 @@
 </head>
 <body>
 <?php
-$server="localhost";
-$usuario="root";
-$contraseña="";
-$bd="proyecto";
+$server="remotemysql.com";
+$usuario="ENvB84Gsj0";
+$contraseña="QqmXK82D4x";
+$bd="ENvB84Gsj0";
 
 $conexion=mysqli_connect($server,$usuario,$contraseña,$bd)
 or die ("Error de la conexion");
